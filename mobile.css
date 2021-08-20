@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    background: #333;
+    color: #fff;
+    overflow-x: hidden;
+  }
+  
+
+  h1,h4{
+    font-family: 'PT Serif', serif;
+    font-size: 21px;
+    color: #428BCA;
+    padding: 0;
+    margin: 0;     
+}
+
+a {
+    text-decoration: none;
+    color: #428BCA;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    text-align: center;
+}
+
+.icon-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
